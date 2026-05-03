@@ -44,7 +44,7 @@ Solutions for 6 capture-the-flag tasks covering:
 
 1. **Clone or download the project**
    ```bash
-   git clone <your-repo-url>
+   git clone (https://github.com/TH4TM0F0/Secure_Password_Manager.git)
    cd secure-password-manager
 2. **Install dependencies**
    ```bash
