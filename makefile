@@ -10,5 +10,8 @@ test3:
 testlocalflow:
 	py -3.11 -m tests.test_localworkflow
 
-run:
+cli:
 	py -3.11 -m src.cli.main
+
+gui: 
+	py -3.11 password_manager_gui.py
