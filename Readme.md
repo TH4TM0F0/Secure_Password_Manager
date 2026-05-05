@@ -1,7 +1,7 @@
 # 🔐 Secure Password Manager + CTF Challenges
 **Cairo University — Computer Engineering Dept. — CMPS426 Security Course Project**
 
-A command-line password manager implementing AES-GCM encryption, SHA-256 hashing, ElGamal digital signatures, and Diffie-Hellman key exchange — all built from scratch per course specifications.
+A command-line/graphical-user-interface password manager implementing AES-GCM encryption, SHA-256 hashing, ElGamal digital signatures, and Diffie-Hellman key exchange — all built from scratch per course specifications.
 
 ---
 
@@ -49,6 +49,9 @@ Solutions for 6 capture-the-flag tasks covering:
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-3. **Run the program**
+3. **Run the CLI version**
    ```bash
-   make run
+   make cli
+4. **Run the GUI version**
+   ```bash
+   make gui
